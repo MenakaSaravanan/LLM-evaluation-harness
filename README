@@ -20,5 +20,4 @@ This project is built to run entirely locally with zero complex dependencies.
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/llm-evaluation-harness.git](https://github.com/YOUR_USERNAME/llm-evaluation-harness.git)
-cd llm-evaluation-harness
+
