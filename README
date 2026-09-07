@@ -1,0 +1,24 @@
+# 🧪 LLM Evaluation Harness
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Testing](https://img.shields.io/badge/Testing-Automated-success)
+![LLMOps](https://img.shields.io/badge/Category-LLMOps-orange)
+
+A lightweight, zero-dependency Python evaluation framework designed to bring software engineering rigor to Large Language Models (LLMs). This harness automates the testing of LLM applications across functional, factual, and security dimensions, outputting a detailed Markdown report upon completion.
+
+## 🎯 Overview
+
+Evaluating LLMs based on "vibes" is dangerous for production systems. This repository provides a deterministic testing suite that consolidates three core pillars of AI QA:
+
+1. **Unit & Tool Testing (Layer 1):** Validates that the LLM correctly maps user intents to JSON-formatted tool calls (e.g., routing math to a calculator tool instead of hallucinating).
+2. **Golden Dataset Validation (Layer 2):** Measures factual accuracy and regression against a curated baseline of known truth-pairs.
+3. **Adversarial & Safety Stress-Testing (Layer 3):** Stress-tests the model against prompt injections, jailbreaks, and safety policy violations.
+
+## 🚀 Quick Start
+
+This project is built to run entirely locally with zero complex dependencies. 
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/YOUR_USERNAME/llm-evaluation-harness.git](https://github.com/YOUR_USERNAME/llm-evaluation-harness.git)
+cd llm-evaluation-harness
